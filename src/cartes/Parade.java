@@ -6,9 +6,8 @@ public class Parade extends Bataille {
 		super(type);
 		// TODO Auto-generated constructor stub
 	}
-    @Override
-    public String toString() {
-        return getType().getNomParade();
-    }
-
+	@Override
+	public String toString() {
+	    return getType().getParade();
+	}
 }
